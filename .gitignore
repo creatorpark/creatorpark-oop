@@ -1,7 +1,6 @@
 # Directories #
 /build/
 /bin/
-/gradle/
 target/
   
 # OS Files #
