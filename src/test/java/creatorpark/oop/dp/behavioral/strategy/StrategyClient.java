@@ -7,19 +7,22 @@ import creatorpark.oop.dp.behavioral.strategy.payment.CreditCard;
 import creatorpark.oop.dp.behavioral.strategy.payment.Paypal;
 import lombok.extern.log4j.Log4j2;
 
-// Client
+/**
+ * Strategy used when the 'if' statement becomes complicated.
+ * Strategy lets algorithm independently from clients.
+ */
 @Log4j2
 public class StrategyClient {
 
-	/**
-	 * Strategy used when the 'if' statement becomes complicated.
-	 */
+
 	@Test
 	public void usingStrategy() {
 		PaymentType paymentType = PaymentType.Bank;
 		PaymentStrategy strategy = null;
 		
 		if (PaymentType.Bank == paymentType) {
+			// 1. algorithm become encapsulation.
+			// 2. algorithm become interchangeable.
 			strategy = new Bank("331144");
 		} else if ( PaymentType.CreditCard == paymentType ) {
 			strategy = new CreditCard("33", "0824", "507");
