@@ -3,10 +3,10 @@ package creatorpark.oop.dp.behavioral.strategy;
 /**
  * Context
  */
-public class Calculator {
+public class Context {
 	private Strategy strategy;
 	
-	public Calculator( Strategy strategy ) {
+	public Context( Strategy strategy ) {
 		this.strategy = strategy;
 	}
 	

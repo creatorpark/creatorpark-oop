@@ -1,4 +1,4 @@
-package creatorpark.oop.dp.behavioral.strategy.strategyimpl;
+package creatorpark.oop.dp.behavioral.strategy.impl;
 
 import creatorpark.oop.dp.behavioral.strategy.Strategy;
 
