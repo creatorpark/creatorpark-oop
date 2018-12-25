@@ -8,5 +8,5 @@ public interface BroadCaster {
 	// add Observer, Subscribe
 	public void addViewer( Viewer viewer);
 	public void removeViewer( Viewer viewer);
-	public void notifyViewers();
+	public void deliveringProgramToViewers();
 }

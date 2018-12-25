@@ -9,11 +9,11 @@ public interface Viewer {
 	public ProgramType getFavoriteProgramType();
 	
 	
-	default String watchingProgram(BroadcastingProgram program) {
+	default void watchingProgram(BroadcastingProgram program) {
 		if ( program.getType() == getFavoriteProgramType() ) {
-			return " watching Favorite " + program.getType() + " Programs ";
+			System.out.println(" watching Favorite " + program.getType() + " Program");
 		} else {
-			return " skip " + program.getType() + " Program ";
+			System.out.println(" skip " + program.getType() + " Program ");
 		}
 	}
 }

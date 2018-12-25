@@ -21,7 +21,8 @@ public class ObserverClient {
 		jtbc.addViewer(new DocumantaryViewer());
 		jtbc.addViewer(new NewsViewer());
 		
-		jtbc.notifyViewers();
+		// JTBC Broadcasting
+		jtbc.deliveringProgramToViewers();
 	}
 	
 }

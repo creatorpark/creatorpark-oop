@@ -8,12 +8,9 @@ import lombok.Setter;
 @Setter
 public class NewsViewer implements Viewer {
 
-
 	@Override
 	public ProgramType getFavoriteProgramType() {
 		return ProgramType.NEWS;
 	}
-	
-
 	
 }

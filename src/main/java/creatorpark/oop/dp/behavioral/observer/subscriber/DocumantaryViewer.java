@@ -10,7 +10,6 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class DocumantaryViewer implements Viewer {
 	
-
 	@Override
 	public ProgramType getFavoriteProgramType() {
 		return ProgramType.DOCUMANTARY;

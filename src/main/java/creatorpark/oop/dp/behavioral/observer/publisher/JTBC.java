@@ -37,11 +37,12 @@ public class JTBC implements BroadCaster {
 	}
 
 	@Override
-	public void notifyViewers() {
+	public void deliveringProgramToViewers() {
 		Random random = new Random();
 		BroadcastingProgram program = programs.get( random.nextInt(3) );
+		
 		for (Viewer viewer : viewers) {
-			log.info(viewer.watchingProgram( program ) );
+			viewer.watchingProgram( program );
 		}
 	}
 	
