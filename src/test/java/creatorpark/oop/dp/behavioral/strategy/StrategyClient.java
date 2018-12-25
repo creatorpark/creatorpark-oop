@@ -15,6 +15,7 @@ import lombok.extern.log4j.Log4j2;
 public class StrategyClient {
 
 
+	// complicated
 	@Test
 	public void usingStrategy() {
 		PaymentType paymentType = PaymentType.Bank;
