@@ -17,7 +17,7 @@ public class JTBC implements BroadCaster {
 	protected List<Viewer> viewers;
 	
 	public JTBC() {
-		BroadCasterType broadCaster = BroadCasterType.JTBC; 
+		BroadCasterName broadCaster = BroadCasterName.JTBC; 
 		programs = new ArrayList<>(4);
 		programs.add(new BroadcastingProgram(broadCaster, ProgramType.NEWS , "9 PM") );
 		programs.add(new BroadcastingProgram(broadCaster, ProgramType.DRAMA, "10 PM") );

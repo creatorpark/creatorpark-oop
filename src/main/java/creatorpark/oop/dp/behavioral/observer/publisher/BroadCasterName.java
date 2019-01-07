@@ -1,6 +1,6 @@
 package creatorpark.oop.dp.behavioral.observer.publisher;
 
-public enum BroadCasterType {
+public enum BroadCasterName {
 	
 	JTBC,
 	TVN,

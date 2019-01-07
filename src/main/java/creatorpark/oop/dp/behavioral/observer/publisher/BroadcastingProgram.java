@@ -7,12 +7,12 @@ import lombok.Setter;
 @Setter
 public class BroadcastingProgram {
 
-	private BroadCasterType broadCaster;
+	private BroadCasterName broadCasterName;
 	private ProgramType type;
 	private String onAirTime;
 	
-	public BroadcastingProgram(BroadCasterType broadCaster, ProgramType type, String onAirTime) {
-		this.broadCaster = broadCaster;
+	public BroadcastingProgram(BroadCasterName broadCasterName, ProgramType type, String onAirTime) {
+		this.broadCasterName = broadCasterName;
 		this.type = type;
 		this.onAirTime = onAirTime;
 	}
