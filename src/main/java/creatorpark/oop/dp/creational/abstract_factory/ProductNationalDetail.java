@@ -5,12 +5,12 @@ public class ProductNationalDetail implements ProductNational {
 	public String productName = this.getClass().getSimpleName();
 	
 	public void getName() {
-		System.out.println(productName + "Name : ???•œë¯¼êµ­");
+		System.out.println(productName + "Name : Korea");
 	}
 
 
 	public void getPresident() {
-		System.out.println(productName + "???†µ? ¹ : ì§„ì§œ ì§„ì§œ ?‚˜");
+		System.out.println(productName + "President");
 	}
 
 }
